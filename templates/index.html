@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Summarizer</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .onean-bg { background-color: #404041; }
+        .onean-text { color: #4ECDC4; }
+        .hover\:onean-bg:hover { background-color: #23ada4; }
+        .onean-border { border-color: #1A535C; }
+        .onean2-bg { background-color: #cdd0d1; }
+    </style>
+</head>
+<body class="bg-white text-black m-1">
+    <div id="title" class="mb-2 text-center w-full onean-bg shadow-md flex justify-between items-center">
+        <p class="ml-4"></p>
+        <h1 class="p-3 text-3xl font-bold onean-text">Video Summarizer</h1>
+        <div class="mr-4"></div>
+    </div>
+    <main>
+        <section class="text-center p-24  bg-black bg-opacity-75 text-white border-b border-gray-800">
+            <h2 class="text-5xl">Revolutionize Your Video Experience</h2>
+            <p class="text-xl mt-5 mb-10">
+                Transform lengthy videos into concise summaries using cutting-edge generative AI technology.<br>
+                Discover the most important insights in seconds.
+            </p>
+            <div class="mt-5">
+                <a href="#main" class="scroll-down" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3 mx-auto animate-bounce">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <a href="#main" class="scroll-down" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 mx-auto animate-bounce">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <a href="#main" class="scroll-down" aria-hidden="true"></a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7 mx-auto animate-bounce">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <section class="grid grid-cols-2 gap-10 p-20 bg-gray-50">
+            <div class="flex flex-col items-center justify-center bg-white shadow-lg p-10">
+                <h3 class="text-2xl font-semibold">File Summarization</h3>
+                <p class="text-lg my-2">Navigate to our file summarization tool to start analyzing your videos.</p>
+                <a href="/file" class="mt-3 bg-purple-600 text-white py-2 px-4 rounded no-underline hover:bg-purple-700 transition duration-300">Go to File</a>
+            </div>
+            <div class="flex flex-col items-center justify-center bg-white shadow-lg p-10">
+                <h3 class="text-2xl font-semibold">URL Summarization</h3>
+                <p class="text-lg my-2">Use our URL summarization feature to analyze content from the web directly.</p>
+                <a href="/url" class="mt-3 bg-blue-600 text-white py-2 px-4 rounded no-underline hover:bg-blue-700 transition duration-300">Go to URL</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white text-black text-center p-4">
+        <p>&copy; 2024 Video Summarizer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
